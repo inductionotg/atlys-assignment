@@ -75,6 +75,11 @@
     width: 100%; 
     padding: 12px 20px; 
     font-size: 18px;
+    text-decoration: none;
+  }
+  .submit-btn a {
+    text-decoration: none;
+    color: white;
   }
   
   .submit-btn:hover {
