@@ -1,0 +1,27 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; 
+    backdrop-filter: blur(10px);
+  }
+  .login-modal {
+    background: #27292D;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    overflow: auto;
+    border: 1px solid #888;
+  }
+
+  .login-btns {
+    cursor: pointer;
+    color: #fafafa;
+  }
