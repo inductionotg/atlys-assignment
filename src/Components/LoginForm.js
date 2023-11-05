@@ -77,10 +77,10 @@ function LoginForm() {
             </a>
           </div>
 
-          <button className='submit-btn' type="submit">Login</button>
+          <button className='submit-btn'>Login</button>
 
           <div className="signup-link">
-            <a href="/signup">Don't have an account? Sign up here</a>
+            <p>Don't have an account? Sign up here</p>
           </div>
         </form>
       </div>
