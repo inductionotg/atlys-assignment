@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye,faEyeSlash,faTimes } from '@fortawesome/free-solid-svg-icons';
 import './LoginForm.css'; 
 import { useCloseModal } from './signin-context';
+import { Link } from 'react-router-dom';
 
 function LoginForm() {
   const [email, setEmail] = useState('');
@@ -77,10 +78,10 @@ function LoginForm() {
             </a>
           </div>
 
-          <button className='submit-btn'>Login</button>
+          <button className='submit-btn'><Link to='/comment'>Login</Link></button>
 
           <div className="signup-link">
-            <p>Don't have an account? Sign up here</p>
+            <a>Don't have an account? Sign up here</a>
           </div>
         </form>
       </div>
