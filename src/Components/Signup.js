@@ -40,8 +40,8 @@ const Signup = () => {
             className="close-button"
             onClick={()=>setShowModal1(false)}
             />
-        <h1>Welcome Back</h1>
-        <p>Login to your account</p>
+        <h1>SIGN UP</h1>
+        <p>Create an account to continue</p>
 
         <form onSubmit={handleSubmit}>
           <div className="form-group">
@@ -84,12 +84,12 @@ const Signup = () => {
                 />
             </div>
             
-            <a href="/forgot-password" className="forgot-password-link">
+            <a href="" className="forgot-password-link">
               Forgot Password?
             </a>
           </div>
 
-          <button className='submit-btn' type="submit">Continue</button>
+          <button className='submit-btn'>Continue</button>
 
           <div className="signup-link">
             <h1 onClick={openModal2}>Already have an account? <span className='login-btns'>Login <FontAwesomeIcon icon={faArrowRight} /> </span></h1>
