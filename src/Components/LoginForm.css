@@ -1,0 +1,132 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  form {
+    width: 100%;
+  }
+
+  .form-group {
+    position: relative; 
+  }
+  
+  .login-form h1 {
+    font-size: 16px;
+    color: #C5C7CA;
+    margin: 0;
+  }
+  
+  .login-form p {
+    font-size: 22px;
+    margin: 10px 0;
+    color: #fafafa;
+  }
+  
+  label, input {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    width: 100%; 
+    color: #c5c7ca;
+    margin-bottom: 15px;
+  }
+
+  input {
+    background-color: transparent;
+    color: #888;
+    border: 1px solid #888;
+    border-radius: 6px;
+    height: 41px;
+    padding: 5px 10px;
+  }
+  
+.password-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+  .forgot-password-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%; 
+    padding: 12px 20px; 
+    font-size: 18px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .signup-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .password-input {
+    position: relative;
+  }
+  
+  .password-input input {
+    width: 100%;
+    padding-right: 30px; 
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 5px; 
+    top: 51%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .eye-icon:hover {
+    color: #007bff; 
+  }
+ 
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: black;
+    color: #ddd;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .close-button:hover {
+    color: #000;
+    background-color: #fff; 
+  }
